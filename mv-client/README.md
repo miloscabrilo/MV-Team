@@ -1,7 +1,7 @@
 # MvClient
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.7. This is front-end Angular application for internet store.\
-Android app can be generated from js build script. For more detials, see instruction
+Android app can be generated from js build [script](https://bitbucket.org/mv-team-maker/mv-team-maker-app/src/master/mv-app-builder/runAndroidDebug.js). For more details, see instructions from [README.md](https://bitbucket.org/mv-team-maker/mv-team-maker-app/src/master/mv-app-builder/README.md) of mv-app-builder directory.
 
 ## Prerequisite
 
@@ -36,7 +36,7 @@ Run `ng generate component component-name` to generate a new component. You can 
 ## Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.\
-Content of `dist/` directory will be copied to `www` directory of Cordova project. On that way, Angular files will be used in Corodova app.
+Content of `dist/` directory will be copied to `www` directory of Cordova project. On that way, Angular files will be used in Cordova app.
 
 ## Running unit tests
 
