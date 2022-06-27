@@ -1,6 +1,6 @@
 # MvClient
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.7. This is front-end Angular application for internet store.\
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.7. This is front-end Angular application for internet store. <br />
 Android app can be generated from js build [script](https://bitbucket.org/mv-team-maker/mv-team-maker-app/src/master/mv-app-builder/runAndroidDebug.js). For more details, see instructions from [README.md](https://bitbucket.org/mv-team-maker/mv-team-maker-app/src/master/mv-app-builder/README.md) of mv-app-builder directory.
 
 ## Prerequisite
@@ -16,17 +16,17 @@ Android app can be generated from js build [script](https://bitbucket.org/mv-tea
 - [Sdkman](https://sdkman.io/) (required to manage gradle version)
 - [Gradle, v7.4.2](https://gradle.org/releases/)
 - [Apache Cordova, v11](https://cordova.apache.org/docs/en/latest/) (nice to have but it is not required since local Cordova is already integrated)
-- Export environment variables. Open `.bashrc` script and write the following lines: \
-`export JAVA_HOME=/usr/lib/jvm/java-1.11.0-openjdk-amd64`\
-`export PATH=$PATH:$JAVA_HOME/bin`\
-`export ANDROID_HOME=$HOME/Android/Sdk` \
-`export ANDROID_SDK_ROOT=$ANDROID_HOME` \
-`export PATH=$PATH:$ANDROID_HOME/tools` \
+- Export environment variables. Open `.bashrc` script and write the following lines: <br/>
+`export JAVA_HOME=/usr/lib/jvm/java-1.11.0-openjdk-amd64` <br />
+`export PATH=$PATH:$JAVA_HOME/bin` <br />
+`export ANDROID_HOME=$HOME/Android/Sdk` <br />
+`export ANDROID_SDK_ROOT=$ANDROID_HOME` <br />
+`export PATH=$PATH:$ANDROID_HOME/tools` <br />
 `export PATH=$PATH:$ANDROID_HOME/platform-tools`
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files. Once you install `npm` (Node package manager), the dev server can be run with `npm start` as well.\
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files. Once you install `npm` (Node package manager), the dev server can be run with `npm start` as well.<br />
 After some time, run `npm install` to be sure that you have the latest packages from `packages.json`.
 
 ## Code scaffolding
@@ -35,7 +35,7 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 ## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.\
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.<br />
 Content of `dist/` directory will be copied to `www` directory of Cordova project. On that way, Angular files will be used in Cordova app.
 
 ## Running unit tests
