@@ -49,7 +49,7 @@ mv-client/npm-debug.log
 .editorconfig
 
 # IDE - VSCode
-.vscode/*
+.vscode/
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
