@@ -94,7 +94,7 @@ module.exports = {
                                 {
                                     "$": {
                                         "name": "android-targetSdkVersion",
-                                        "value": "30.0.3"
+                                        "value": "32"
                                     }
                                 },
                                 {
@@ -229,7 +229,7 @@ module.exports = {
 
         // Use Cordova 11 -> cordova-android@10.1.1
         shell.pushd(appName);
-        shell.exec(cordova + ' platform add android@10.1.1');
+        shell.exec(cordova + ' platform add android@11.0.0');
         // Add plugins
         console.log("Add Cordova plugins");
         // Example: shell.exec(cordova + ' plugin add cordova-plugin-name@version);
