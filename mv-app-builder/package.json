@@ -1,0 +1,19 @@
+{
+  "name": "mv-app-builder",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mv-team",
+  "licence": "ISC",
+  "private": true,
+  "dependencies": {
+    "readline-sync": "^1.4.10",
+    "shelljs": "^0.8.5",
+    "xml2js": "^0.4.23"
+  },
+  "devDependencies": {
+    "cordova": "^11.0.0"
+  }
+}
